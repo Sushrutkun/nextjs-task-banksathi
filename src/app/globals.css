@@ -1,0 +1,224 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    margin: none;
+}
+
+@media (prefers-color-scheme: dark) {
+     :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
+
+.font-Poppins{
+  font-family: 'Poppins', sans-serif;
+}
+body {
+    color: rgb(var(--foreground-rgb));
+    background: #F4F8FB ;
+    color: black ;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width : 768px) {
+  .social_icons{
+    display: none;
+  }
+  .info_footer{
+    display: grid;
+    grid-template-areas: 'add add'
+                         'pro res'
+                         'pro comp'
+                         'tools comp';
+    padding-left: 16px;
+    padding-right: 16px;
+    gap : 45px;
+  }
+  .add_footer{
+    width: 100%;
+  }
+  .conn_footer{
+    display: grid;
+    grid-template-areas: 'text arrow';
+    font-size: 1.375rem;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 6px;
+  }
+  .br_footer{
+    justify-content: start;
+    align-self: flex-start;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 1.25rem;
+    padding-bottom: 0px;
+  }
+  .logo_footer{
+    width: 1.5625rem;
+    height: 1.24756rem;
+  }
+}
+
+.app {
+    overflow-x: hidden;
+}
+.card_feat{
+  display: grid;
+  grid-template-areas: '1fr 1fr 1fr'
+                       '1fr 1fr 1fr';
+
+}
+
+@media screen and (max-width: 768px) {
+  .partner-list{
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 150%;
+    padding-left: 2rem;
+  }
+  .partner-list > img {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    padding-right: 17px; 
+    box-sizing: content-box; 
+  }
+
+
+  .ign_nav{
+    display: none;
+  }
+  .nav_nav{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+  .dis_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text_stat{
+    margin-top: 2.56rem;
+  }
+  .vert_stat{
+    display: none;
+  }
+  .col_stat{
+    display: grid;
+    grid-template-areas: 'part pin'
+                         'adv adv';
+    width: 19.5rem;
+    gap: 2.56rem;
+    margin-top: 1.75rem;
+  }
+  .num_stat{
+    font-size: 2.125rem;
+  }
+  .desc_stat{
+    font-size: 0.875rem;
+  }
+  .text_feat{
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+  }
+  .card_feat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+
+
+.collab-steps-container {
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.step-num {
+    width: 50px;
+    height: 50px;
+}
+
+.disp-web {
+    margin: auto;
+    width: 14vw;
+}
+
+.vertical-section {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .hero-root{
+        height: 80vh;
+    }
+    .hero-root-bg{
+        height: 80vh;
+    }
+
+    .hero-content-primary{
+        width: 90vw;
+        font-size: 24px;
+    }
+    .hero-content-secondary{
+        width: 85vw;
+        font-size: 14px;
+    }
+  
+
+    .btn{
+        top: 40vh;
+    }
+
+    .collab-container {
+        gap: 40px;
+        padding: 0 16px;
+    }
+    .collab-heading {
+        font-size: 16px;
+    }
+    .collab-steps-container {
+        width: 100%;
+        border-radius: 30px;
+        grid-template-columns: unset;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 3px;
+    }
+    .step-num {
+        width: 40px;
+        height: 40px;
+        font-size: 21px;
+    }
+    .step-heading {
+        font-size: 18px;
+    }
+    .step-text{
+      font-size: 18px;
+    }
+    .disp-web {
+        display: none;
+    }
+    .vertical-section {
+        display: flex;
+        align-items: start;
+        margin-left: 33px;
+        gap: 33px
+    }
+}

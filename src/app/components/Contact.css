@@ -1,0 +1,264 @@
+.vision-container {
+    padding: 35px 100px 35px 40px;
+    width: 500px;
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    /* background: rgba(255, 255, 255, 0.33); */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(6.400000095367432px);
+
+}
+
+.mg-70 {
+    margin: 70px;
+}
+
+.contact-info-container {
+    width: 500px;
+}
+
+.form-container {
+    margin: unset;
+    top: -30%;
+}
+
+input,
+textarea,
+button {
+    width: -webkit-fill-available;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    background: rgb(253, 253, 253);
+    padding: 16px 10px;
+    color: rgb(146, 146, 146);
+    font-size: 13px;
+    font-weight: 600;
+    outline: none;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+button {
+    border-radius: 16px;
+    background: #14363D;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.info-heading-heading {
+    color: rgb(20, 54, 61);
+}
+
+.color-g {
+    color: rgb(73, 212, 157);
+}
+
+.review-section-container {
+    bottom: 60px;
+}
+
+.comment-img-container {
+    translate: -60% -20%;
+    z-index: -1;
+}
+
+.arrow-container {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    translate: -50% -50%;
+    z-index: 40;
+}
+
+.right-arrow {
+    right: 0;
+    translate: 50% -50%
+}
+
+.main-review {
+    box-shadow: 0px 10px 18px 0px rgba(132, 79, 207, 0.10);
+    z-index: 30;
+}
+
+.upper-gradient {
+    height: 8px;
+    background: linear-gradient(270deg, #15489D 17.05%, rgba(124, 148, 188, 0.48) 63.27%, rgba(217, 217, 217, 0.00) 105.23%);
+    border-radius: 16px 16px 0px 0px;
+}
+
+.rating-box {
+    padding: 10px;
+}
+
+.profile-name-text {
+    color: rgb(157, 157, 157);
+}
+
+.review-bottom-section {
+    border-top: 1px solid #D9D9D9;
+}
+
+.review-bottom-section>img {
+    margin: auto;
+}
+
+.bg-review {
+    width: 95%;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    translate: -50% -90%;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 10px 18px 0px rgba(132, 79, 207, 0.10);
+    z-index: -10;
+}
+
+.bg-2 {
+    width: 90%;
+    translate: -50% -80%;
+    z-index: -20;
+}
+
+@media screen and (max-width:1100px) {
+    .vision-container {
+        top: 10%;
+        width: 40%;
+        padding: 35px 40px;
+    }
+    .form-container,
+    .review-section-container {
+        width: 45%;
+    }
+    .contact-info-container {
+        width: 40%;
+    }
+    .info-container {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .con_con{
+        padding-bottom: 2.31rem;
+    }
+    .vision-container {
+        bottom: 0;
+        right: 0;
+        width: 80%;
+        top: unset;
+        padding: 30px 10px 30px 20px;
+    }
+    .vision-text {
+        font-size: 12px;
+    }
+    .lower-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 16px;
+    }
+    .form-container,
+    .info-container,
+    .review-section-container {
+        width: 100%;
+        position: relative;
+        right: unset;
+        bottom: unset;
+        top: unset;
+        left: unset;
+    }
+    .contact-info-container {
+        display: none;
+    }
+    .form-container {
+        margin: unset;
+        margin-top: 24px;
+        margin-bottom: 36px;
+        padding: 30px;
+        gap: 30px;
+    }
+    .form-heading-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-heading-text {
+        font-size: 10px;
+    }
+    .form-heading {
+        font-size: 18px;
+    }
+    .form {
+        gap: 20px;
+    }
+    .form-div-1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    textarea {
+        height: 280px;
+    }
+    button {
+        padding: 20px;
+        font-size: 13px;
+    }
+    .info-container {
+        margin: 0 10px;
+        align-items: center;
+    }
+    .info-heading-text {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .percentage {
+        font-size: 25px;
+    }
+    .info-heading-heading {
+        font-size: 20px;
+    }
+    .color-g:first-child {
+        color: unset;
+    }
+    .info-text {
+        font-size: 12px;
+        text-align: center;
+    }
+    .review-section-container {
+        margin: 60px 0;
+    }
+    .comment-img-container {
+        right: 0;
+        translate: 0% -75%;
+    }
+    .comment-img {
+        width: 68px;
+    }
+    .arrow-container {
+        width: 30px;
+        height: 30px;
+    }
+    .main-review {
+        gap: 20px;
+    }
+    .upper-gradient {
+        height: 0px;
+    }
+    .review-text {
+        font-size: 14px;
+    }
+    .profile-img-container {
+        width: 45px;
+        height: 45px;
+    }
+    .profile-name {
+        font-size: 12px;
+    }
+    .profile-name-text {
+        font-size: 10px;
+    }
+}
