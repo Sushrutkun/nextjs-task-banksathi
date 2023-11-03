@@ -143,7 +143,7 @@ const Contacts = () => {
                     />{" "}
                   </div>{" "}
                   <p className="text-neutral-600 font-Poppins text-lg text-center review-text">
-                    My experience has been great with BankSathi.It 's a great
+                    My experience has been great with BankSathi.It&apos;s a great
                     organisation to collborate with.{" "}
                   </p>{" "}
                 </div>{" "}

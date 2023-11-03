@@ -26,7 +26,7 @@ const Collaboration = () => {
             className="border-r border-dashed border-[#938E8E]"
           />
           <p className="font-Poppins text-black text-xs">
-            Connect with Us Today : Let 's start something great!{" "}
+            Connect with Us Today : Let &apos;s start something great!{" "}
           </p>{" "}
         </div>{" "}
         <div className="flex items-center ">
@@ -56,7 +56,7 @@ const Collaboration = () => {
           >
             3{" "}
           </div>{" "}
-          <p className="step-text font-semibold text-[1.625rem]"> It 's Live</p>{" "}
+          <p className="step-text font-semibold text-[1.625rem]"> It &apos;s Live</p>{" "}
         </div>{" "}
         <div className="vertical-section">
           <div
